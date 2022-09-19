@@ -6,6 +6,7 @@ from models import RequestParams, BatchRequestParams
 
 main_bp = Blueprint('main', __name__)
 
+
 @main_bp.route('/perform_query', methods=['POST'])
 def perform_query():
     try:
